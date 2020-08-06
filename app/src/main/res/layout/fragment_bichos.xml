@@ -7,6 +7,16 @@
     android:background="@color/fundo_bichos"
     tools:context=".fragments.BichosFragment">
 
+    <ImageButton
+        android:id="@+id/buttonCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/gato"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
         android:layout_width="wrap_content"
@@ -22,7 +32,7 @@
         app:layout_constraintGuide_percent="0.87" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/buttonDog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -31,55 +41,45 @@
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="@android:color/transparent"
-        android:src="@drawable/gato"
-        app:layout_constraintEnd_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/buttonLion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:background="@android:color/transparent"
         android:src="@drawable/leao"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonDog" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/buttonMonkey"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:background="@android:color/transparent"
         android:src="@drawable/macaco"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonCat" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/buttonSheep"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:background="@android:color/transparent"
         android:src="@drawable/ovelha"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonLion" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/buttonCow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
         android:background="@android:color/transparent"
         android:src="@drawable/vaca"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonMonkey" />
 
     <ImageView
         android:id="@+id/imageView2"

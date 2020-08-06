@@ -1,10 +1,11 @@
-package com.example.aprenda.ingles;
+package com.example.aprenda.ingles.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
 
+import com.example.aprenda.ingles.R;
 import com.example.aprenda.ingles.fragments.BichosFragment;
 import com.example.aprenda.ingles.fragments.NumerosFragment;
 import com.example.aprenda.ingles.fragments.VogaisFragment;
